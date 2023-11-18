@@ -1,0 +1,78 @@
+
+#app {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+body {
+  background: #a00993a4;
+  -webkit-touch-callout: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
+  cursor: default;
+}
+
+.calculator {
+  border: 2px solid #e0781783;
+  padding: 5px;
+  background: black;
+  width: 320px;
+  position: relative;
+}
+
+.formulaScreen {
+  min-height: 20px;
+  font-family: digital;
+  font-size: 20px;
+  color: rgb(228, 26, 26);
+  text-align: right;
+  vertical-align: text-top;
+  line-height: 20px;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+}
+
+.outputScreen {
+  font-size: 29px;
+  font-family: digital;
+  color: rgb(192, 32, 179);
+  text-align: right;
+  line-height: 35px;
+}
+
+button {
+  position: relative;
+  height: 65px;
+  width: 80px;
+  color: rgb(199, 21, 21);
+  outline: 1px solid black;
+  border: none;
+  background: #e0f00b;
+  font-family: Share Tech Mono, monospace;
+  font-size: 20px;
+  cursor: default;
+}
+button:hover {
+  color: black;
+  outline: 0.05em solid rgb(231, 94, 15);
+  z-index: 3;
+}
+
+.jumbo {
+  width: 160px;
+}
+
+.author {
+  text-align: center;
+  font-family: Share Tech Mono, sans;
+  margin-top: 15px;
+}
+.author a {
+  text-decoration: none;
+  color: #4d0033;
+  line-height: 26px;
+}
